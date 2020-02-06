@@ -1,0 +1,5 @@
+.idea/
+*.iml
+dive-in-spring-boot/
+# Project exclude paths
+/servlet-test/target/
