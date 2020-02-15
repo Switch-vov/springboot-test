@@ -1,5 +1,5 @@
 .idea/
+target/
 *.iml
-dive-in-spring-boot/
-# Project exclude paths
-/servlet-test/target/
+rebel.xml
+.extract/

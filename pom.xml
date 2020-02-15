@@ -5,6 +5,7 @@
 
     <groupId>com.switchvov</groupId>
     <artifactId>springboot-test</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0</version>
 
     <name>springboot-test</name>
@@ -12,6 +13,17 @@
 
     <modules>
         <module>servlet-test</module>
+        <module>configure</module>
+        <module>spring-application</module>
+        <module>spring-web-mvc</module>
+        <module>springboot-web-mvc</module>
+        <module>springboot-web-view</module>
+        <module>springboot-web-rest</module>
+        <module>spring-web-servlet</module>
+        <module>springboot-web-servlet</module>
+        <module>spring-reactive</module>
+        <module>springboot-webflux</module>
+        <module>externalized</module>
     </modules>
 
     <parent>

@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    prefix: "classpath:/templates/thymeleaf/"
+    suffix: ".html"
+    cache: false
+  mvc:
+    view:
+      prefix: "/WEB-INF/jsp/"
+      suffix: ".jsp"

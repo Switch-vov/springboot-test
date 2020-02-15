@@ -1,0 +1,15 @@
+# ApplicationContextInitializer
+org.springframework.context.ApplicationContextInitializer=\
+com.switchvov.spring.application.context.HelloWorldApplicationContextInitializer,\
+com.switchvov.spring.application.context.AfterApplicationContextInitializer
+
+# ApplicationListener
+org.springframework.context.ApplicationListener=\
+com.switchvov.spring.application.listener.HelloWorldApplicationListener,\
+com.switchvov.spring.application.listener.AfterApplicationListener,\
+com.switchvov.spring.application.listener.BeforeConfigFileApplicationListener,\
+com.switchvov.spring.application.listener.AfterConfigFileApplicationListener
+
+# SpringApplicationRunListener
+org.springframework.boot.SpringApplicationRunListener=\
+com.switchvov.spring.application.run.HelloWorldRunListener

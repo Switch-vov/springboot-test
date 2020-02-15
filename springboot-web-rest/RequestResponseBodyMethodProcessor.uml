@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</OriginalElement>
+  <nodes>
+    <node x="489.5" y="246.0">org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</node>
+    <node x="463.0" y="0.0">org.springframework.web.method.support.HandlerMethodArgumentResolver</node>
+    <node x="186.5" y="164.0">org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor</node>
+    <node x="378.0" y="82.0">org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver</node>
+    <node x="0.0" y="82.0">org.springframework.web.method.support.HandlerMethodReturnValueHandler</node>
+  </nodes>
+  <notes>
+    <note x="644.5" y="166.5">
+      <node>org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</node>
+      <value>从 RequestResponseBodyMethodProcessor 的类图，可以看出该类既处理了参数，也处理了返回值</value>
+      <edge>
+        <point x="97.0" y="-16.0" />
+        <point x="780.5" y="221.0" />
+        <point x="961.5" y="221.0" />
+        <point x="0.0" y="13.5" />
+      </edge>
+    </note>
+  </notes>
+  <edges>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor" target="org.springframework.web.method.support.HandlerMethodReturnValueHandler">
+      <point x="-109.5" y="-16.0" />
+      <point x="296.0" y="139.0" />
+      <point x="179.0" y="139.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor" target="org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver">
+      <point x="109.5" y="-16.0" />
+      <point x="515.0" y="139.0" />
+      <point x="632.0" y="139.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver" target="org.springframework.web.method.support.HandlerMethodArgumentResolver">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor" target="org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor">
+      <point x="-97.0" y="-16.0" />
+      <point x="586.5" y="221.0" />
+      <point x="405.5" y="221.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="639.5" y="139.0" />
+  <SelectedNodes>
+    <node>org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
